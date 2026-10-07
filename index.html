@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Мёртвые мили</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="ui"></div>
+  <div id="touch" class="hidden">
+    <div class="tgroup left">
+      <button data-k="left" class="tbtn">⟲</button>
+      <button data-k="right" class="tbtn">⟳</button>
+    </div>
+    <div class="tgroup right">
+      <button data-k="boost" class="tbtn small">NITRO</button>
+      <button data-k="brake" class="tbtn">ТОРМОЗ</button>
+      <button data-k="gas" class="tbtn gas">ГАЗ</button>
+    </div>
+    <button id="tpause" class="tbtn pause">❚❚</button>
+  </div>
+  <div id="fade"></div>
+
+  <script src="js/physics.js"></script>
+  <script src="js/draw.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/vehicles.js"></script>
+  <script src="js/carsim.js"></script>
+  <script src="js/vehicle_art.js"></script>
+  <script src="js/humans.js"></script>
+  <script src="js/zombies.js"></script>
+  <script src="js/props.js"></script>
+  <script src="js/props2.js"></script>
+  <script src="js/raiders.js"></script>
+  <script src="js/leveldata.js"></script>
+  <script src="js/levels.js"></script>
+  <script src="js/backdrop.js"></script>
+  <script src="js/backdrop_paint.js"></script>
+  <script src="js/backdrop_paint2.js"></script>
+  <script src="js/backdrop_marks.js"></script>
+  <script src="js/backdrop_life.js"></script>
+  <script src="js/backdrop_scenes.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/finish.js"></script>
+  <script src="js/gauges.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/portraits.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
